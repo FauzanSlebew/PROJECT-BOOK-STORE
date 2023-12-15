@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book</title>
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+ 
+  <style>
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  background: ghostwhite;
+}
+
+main {
+  padding: 5vw;
+}
+
+.container, section#gallery-section ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1em;
+}
+
+img {
+  width: 10%;
+  align-self: center;
+}
+
+section#gallery-section ul li img {
+  border-radius: 8px;
+  box-shadow: 0 8px 32px -8px rgba(128, 128, 128, 0.5);
+}
+  </style>
+</head>
+<body>
+  <main>
+    <section id="gallery-section">
+    <ul>
+        <li><img src="1.jpg" alt=""></li>
+        <p>pp</p>
+        <li><img src="2.jpg" alt=""></li>
+        <p>pp</p>
+        <li><img src="3.jpg" alt=""></li>
+        <p>pp</p>
+        <li><img src="4.jpg" alt=""></li>
+        <p>pp</p>
+        <li><img src="5.jpg" alt=""></li>
+        <p>pp</p>
+      </ul>
+  </section>
+  </main>
+
+</body>
+</html>
